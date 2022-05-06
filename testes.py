@@ -1,7 +1,10 @@
-print("******************************************")
-print("Bem vindo ao jogo de Adivinhação!")
-print("******************************************")
 
-inteiros = [1,3,4,5,7,8,9]
-pares = [x for x in inteiros if x % 2 == 0]
-print(pares)
+class Retangulo:
+
+    def __init__(self, x, y):
+        self.__x = x
+        self.__y = y
+        self.__area = x * y
+
+    def obter_area(self):
+        return self.__area
